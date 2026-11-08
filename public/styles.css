@@ -1,0 +1,12 @@
+:root{color-scheme:light;--ink:#152c35;--muted:#61737a;--line:#dae5e6;--bg:#f8faf9;--card:#fff;--green:#176d61}
+*{box-sizing:border-box}html{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7}a{color:var(--green);text-underline-offset:3px}a:focus-visible{outline:3px solid #2ca492;outline-offset:3px}
+.wrap{max-width:850px;width:calc(100% - 40px);margin:0 auto}.site-header{background:#fff;border-bottom:1px solid var(--line);padding:23px 0}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-size:1.14rem;font-weight:730;color:var(--ink);letter-spacing:-.04em;text-decoration:none}.topnav{display:flex;gap:20px;flex-wrap:wrap}.topnav a{color:var(--muted);font-size:.91rem;text-decoration:none}
+main{min-height:65vh;padding:68px 0 90px}.eyebrow{font-size:.75rem;font-weight:750;letter-spacing:.13em;text-transform:uppercase;color:var(--green)}h1,h2{line-height:1.2;letter-spacing:-.04em}h1{font-size:clamp(2.2rem,6vw,3.35rem);margin:16px 0 20px}h2{font-size:1.45rem;margin:35px 0 11px}
+.lead{max-width:660px;font-size:1.14rem;color:#435961}.panel{background:var(--card);border:1px solid var(--line);padding:25px 28px;border-radius:14px;margin-top:36px}.panel h2{margin:0 0 10px}.panel p{color:#435961}
+.links{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px}.links a{font-weight:650}
+.prose{max-width:740px}.prose p,.prose li{color:#394f58}.prose h2{border-top:1px solid var(--line);padding-top:18px;margin-top:38px}.prose li+li{margin-top:8px}.meta{font-size:.89rem;color:var(--muted)}.note{padding:17px 20px;background:#eaf3ef;border-left:3px solid var(--green)}
+.site-footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.86rem}.site-footer .wrap{display:flex;gap:14px;justify-content:space-between;flex-wrap:wrap}
+@media(max-width:600px){main{padding:43px 0 66px}.wrap{width:calc(100% - 32px)}.panel{padding:20px}.topnav{gap:13px}.lead{font-size:1.04rem}}
